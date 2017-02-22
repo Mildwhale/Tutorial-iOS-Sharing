@@ -14,6 +14,10 @@
 		3DA6426A1E5BE481003A5B9C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA642691E5BE481003A5B9C /* Images.xcassets */; };
 		3DA6426D1E5BE481003A5B9C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DA6426B1E5BE481003A5B9C /* LaunchScreen.xib */; };
 		3DA642791E5BE481003A5B9C /* SharingTutorial_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA642781E5BE481003A5B9C /* SharingTutorial_ObjCTests.m */; };
+		3DBA1AC41E5C108F00F0F18C /* mercury_450_ko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DBA1ABF1E5C108F00F0F18C /* mercury_450_ko.jpg */; };
+		3DBA1AC51E5C108F00F0F18C /* mercury_640_ko.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DBA1AC01E5C108F00F0F18C /* mercury_640_ko.png */; };
+		3DBA1AC61E5C108F00F0F18C /* mercury_960_ko.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3DBA1AC11E5C108F00F0F18C /* mercury_960_ko.jpg */; };
+		3DBA1AC71E5C108F00F0F18C /* mp4sample.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 3DBA1AC31E5C108F00F0F18C /* mp4sample.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		3DA642721E5BE481003A5B9C /* SharingTutorial ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SharingTutorial ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DA642771E5BE481003A5B9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DA642781E5BE481003A5B9C /* SharingTutorial_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SharingTutorial_ObjCTests.m; sourceTree = "<group>"; };
+		3DBA1ABF1E5C108F00F0F18C /* mercury_450_ko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercury_450_ko.jpg; sourceTree = "<group>"; };
+		3DBA1AC01E5C108F00F0F18C /* mercury_640_ko.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mercury_640_ko.png; sourceTree = "<group>"; };
+		3DBA1AC11E5C108F00F0F18C /* mercury_960_ko.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mercury_960_ko.jpg; sourceTree = "<group>"; };
+		3DBA1AC31E5C108F00F0F18C /* mp4sample.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = mp4sample.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,8 @@
 		3DA642501E5BE480003A5B9C = {
 			isa = PBXGroup;
 			children = (
+				3DBA1ABE1E5C108F00F0F18C /* ImageResource */,
+				3DBA1AC21E5C108F00F0F18C /* VideoResource */,
 				3DA6425B1E5BE480003A5B9C /* SharingTutorial ObjC */,
 				3DA642751E5BE481003A5B9C /* SharingTutorial ObjCTests */,
 				3DA6425A1E5BE480003A5B9C /* Products */,
@@ -117,6 +127,24 @@
 				3DA642771E5BE481003A5B9C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DBA1ABE1E5C108F00F0F18C /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA1ABF1E5C108F00F0F18C /* mercury_450_ko.jpg */,
+				3DBA1AC01E5C108F00F0F18C /* mercury_640_ko.png */,
+				3DBA1AC11E5C108F00F0F18C /* mercury_960_ko.jpg */,
+			);
+			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		3DBA1AC21E5C108F00F0F18C /* VideoResource */ = {
+			isa = PBXGroup;
+			children = (
+				3DBA1AC31E5C108F00F0F18C /* mp4sample.mp4 */,
+			);
+			path = VideoResource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +228,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DA642681E5BE481003A5B9C /* Main.storyboard in Resources */,
+				3DBA1AC41E5C108F00F0F18C /* mercury_450_ko.jpg in Resources */,
+				3DBA1AC51E5C108F00F0F18C /* mercury_640_ko.png in Resources */,
+				3DBA1AC61E5C108F00F0F18C /* mercury_960_ko.jpg in Resources */,
 				3DA6426D1E5BE481003A5B9C /* LaunchScreen.xib in Resources */,
+				3DBA1AC71E5C108F00F0F18C /* mp4sample.mp4 in Resources */,
 				3DA6426A1E5BE481003A5B9C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +382,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SharingTutorial ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +393,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "SharingTutorial ObjC/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +452,7 @@
 				3DA6427E1E5BE481003A5B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3DA6427F1E5BE481003A5B9C /* Build configuration list for PBXNativeTarget "SharingTutorial ObjCTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +461,7 @@
 				3DA642811E5BE481003A5B9C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
